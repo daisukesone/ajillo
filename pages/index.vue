@@ -1,5 +1,10 @@
 <template>
-  <div class="container">
+  <section class="container">
+    <h1 class="h1">Nuxt Bootstrap</h1>
+    <b-button variant="primary">Primary Button</b-button>
+  </section>
+
+  <!-- <div class="container">
     <div>
       <Logo />
       <h1 class="title">
@@ -24,7 +29,7 @@
         </a>
       </div>
     </div>
-  </div>
+  </div> -->
 </template>
 
 <script>
