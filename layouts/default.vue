@@ -7,6 +7,7 @@
 <style>
 html {
   font-family:
+  'Jost',
     'Source Sans Pro',
     -apple-system,
     BlinkMacSystemFont,

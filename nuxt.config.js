@@ -14,12 +14,12 @@ export default {
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: [
-    
-  ],
+  css: [],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
-  plugins: [],
+  plugins: [
+    "~/plugins/vee-validate" //これを追記
+  ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
   components: true,
@@ -31,8 +31,14 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     "@nuxtjs/axios",
-    "bootstrap-vue/nuxt"
+    "bootstrap-vue/nuxt",
+    "nuxt-webfontloader"
   ],
+  webfontloader: {
+    google: {
+      families: ["Jost"]
+    }
+  },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
